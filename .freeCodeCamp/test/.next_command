@@ -199,3 +199,8 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git remote add origin https://github.com/ShradhaChauhan/fcc-build-celestial-bodies.git
 git add .
+git commit -m "initial commit"
+git push
+git push -u origin main
+git remote add origin https://github.com/ShradhaChauhan/fcc-build-celestial-bodies.git
+git add .
