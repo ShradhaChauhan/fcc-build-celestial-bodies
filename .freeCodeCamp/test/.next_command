@@ -204,3 +204,10 @@ git push
 git push -u origin main
 git remote add origin https://github.com/ShradhaChauhan/fcc-build-celestial-bodies.git
 git add .
+git commit -m "pushing code"
+git push -u origin main
+clear
+git remote rename origin upstream
+git remote add origin https://github.com/ShradhaChauhan/fcc-build-celestial-bodies.git
+git branch -M main
+git add .
